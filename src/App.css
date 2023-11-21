@@ -21,9 +21,9 @@
     padding-bottom: 1%;
 }
 .servicePage{
-    padding-top: 4%;
+    padding-top: 7%;
     padding-left: 12%;
-    padding-bottom: 6%;
+    padding-bottom: 8%;
     width:80%
 }
 .servicePage .serviceIntro{
@@ -76,7 +76,7 @@
 }
 
 .homePageParent{
-    background-image: url("public/Untitled design.png");
+    background-image: url("https://images.pexels.com/photos/454507/pexels-photo-454507.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1");
     background-repeat: no-repeat;
     background-size: cover;
     width: 100%;
