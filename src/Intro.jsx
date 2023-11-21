@@ -3,17 +3,20 @@ import './Intro.css'
 import Contact from "./Contact";
 import Experience from "./Experience";
 import Portfolio from "./Portfolio";
+import Services from "./Services";
+import Home from "./Home";
 
 
 
-function Intro ({ contactRef,aboutRef,experienceRef }){
+function Intro ({ homeRef,portfolioRef,contactRef,aboutRef,experienceRef,serviceRef }){
     
     return(
         <div className="contentSection">
-        <h2>Hello</h2>
+        <div ref={homeRef}><Home/></div>
         <div ref={aboutRef}><About/></div>
         <div ref={experienceRef}><Experience/></div>
-        <Portfolio/>
+        <div ref={portfolioRef}><Portfolio/></div>
+        <div ref={serviceRef}><Services/></div>
         <div ref={contactRef}><Contact /></div>
         </div>
     )

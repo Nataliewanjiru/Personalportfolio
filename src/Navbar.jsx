@@ -4,11 +4,11 @@ import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faFacebook,faTwitterSquare,faInstagram,faGithub } from '@fortawesome/free-brands-svg-icons';
 import Contact from './Contact';
 
-function Navbar({ scrollToContact ,scrollToAbout, scrollToExp}){
+function Navbar({ scrollToHome,scrollToPortfolio,scrollToContact ,scrollToAbout, scrollToExp,scrollToService}){
     return(
         <>
         <div className="sideSection">
-            <image src="#" alt="User image"/>
+            <img src="#" alt="User image"/>
             <h2>Natalie Wanjiru</h2>
             <div className='mediaLink'>
                 <nav>
@@ -23,11 +23,11 @@ function Navbar({ scrollToContact ,scrollToAbout, scrollToExp}){
             <div className="navbarDiv">
                 <nav>
                  <ul>
-                   <li>Home</li>
+                   <li onClick={scrollToHome}>Home</li>
                    <li onClick={scrollToAbout}>About</li>
                    <li onClick={scrollToExp}>Experience</li>
-                   <li>Portfolio</li>
-                   <li>Services</li>
+                   <li onClick={scrollToPortfolio}>Portfolio</li>
+                   <li onClick={scrollToService}>Services</li>
                    <li onClick={scrollToContact}>Contact</li>
                  </ul>
                 </nav>
