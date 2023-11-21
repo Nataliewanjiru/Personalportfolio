@@ -1,0 +1,73 @@
+* {
+    margin: 0; 
+    padding: 0;
+}
+
+.sideSection {
+    display: flex;
+    flex-direction: column;
+    background-color: #001B3A; 
+    color: #fff; /* Text color for the sidebar items */
+    /* Adjust the width to your preference */
+    height:55.6rem;
+    width:20%;
+   overflow: hidden;
+}
+
+.sideSection image {
+    width: 100px; /* Adjust the image size as needed */
+    margin: 20px auto; /* Center the image within the sidebar */
+    display: block;
+}
+
+.sideSection h2{
+    padding-left: 6rem;
+    padding-top: 3rem;
+}
+
+.navbarDiv {
+    flex: 1; /* Grow to fill the remaining vertical space */
+    padding-left: 10rem;
+    padding-top: 50px;
+}
+
+nav ul {
+    list-style: none; /* Remove bullet points from the list items */
+}
+
+nav ul li {
+    padding: 1rem 0;
+    color: grey;
+}
+
+nav ul li:hover {
+    color: white; /* Background color on hover */
+    cursor: pointer;
+}
+
+.mediaLink img{
+  width:10%;
+}
+
+.mediaLink {
+    padding-left: 80px;
+    display: flex; /* Use flexbox to make the items horizontal */
+    align-items: center; /* Center items vertically within the container */
+    padding-top: 20px;
+  }
+  
+  .social-icons {
+    list-style: none;
+    display: flex; /* Make the list items horizontal */
+    gap: 30px; /* Add some spacing between items */
+    padding: 0; /* Remove default padding */
+  }
+  
+  .social-icons li {
+    display: flex; /* Make the list items horizontal as well */
+  }
+  
+  .social-icons a {
+    text-decoration: none; /* Remove underline from links */
+  }
+  

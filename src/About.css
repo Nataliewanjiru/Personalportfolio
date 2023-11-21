@@ -1,0 +1,64 @@
+.aboutPage{
+    background-color: white;
+    padding-top: 4%;
+    padding-left: 12%;
+    padding-bottom: 6%;
+    width:80%
+}
+.aboutPage h1{
+    color: #001B3A;
+}
+
+.aboutPage .firstStatement{
+    text-align: left;
+    font-size: 120%;
+}
+
+.aboutPage img{
+    width:30%
+}
+
+.aboutPage .imagewordDiv{
+    display: flex;
+    padding-top: 4%;
+}
+.aboutPage .wordDiv{
+    width: 70%;
+    padding-left: 2%;
+}
+
+.aboutPage .wordDiv h2{
+    color: darkblue;
+}
+.aboutPage .wordDiv .secondStatement{
+    font-size: 120%;
+}
+.aboutPage .wordDiv .wordDivSection{
+    display: flex;
+    padding-top: 3%;
+    padding-left: 2.5%;
+    font-size: 130%;
+}
+.aboutPage .wordDiv .wordDivSection ul{
+    list-style: circle;
+}
+.aboutPage .wordDiv .wordDivSection li{
+    padding-top: 3%;
+}
+
+.aboutPage .wordDiv .wordSection1{
+    width:50%;
+}
+.aboutPage .wordDiv .wordSection2{
+    width: 50%;
+}
+.aboutPage .wordDiv  .lastStatement{
+    font-size: 130%;
+    padding-top: 6%;
+}
+.aboutPage button{
+    margin-left: 20%;
+    margin-top: 3%;
+    width:20%;
+    height: 8%;
+}

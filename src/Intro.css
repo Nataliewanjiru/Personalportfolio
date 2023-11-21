@@ -1,0 +1,88 @@
+.contentSection{
+    width:80%;
+    height: 55.6rem;
+    overflow-y: scroll;
+}
+
+.parentContactDiv{
+    width:80%;
+    background-color: white;
+    padding-top: 4%;
+    padding-left: 12%;
+    padding-bottom: 6%;
+}
+.parentContactDiv h2{
+    font-size: 200%;
+    color: #001B3A;
+}
+.parentContactDiv p{
+    font-size: 130%;
+}
+
+
+.contactDiv{
+    display: flex;
+    padding-top: 3%;
+}
+
+.contactDiv .divForm{
+  width:50%
+  
+}
+.contactDiv .Info{
+ width:40%;
+ margin-left: 2.5%;
+ border: 1px solid black;
+ padding: 3%;
+ box-shadow: 12px 17px 10px rgba(0, 0, 0, 0.2);
+}
+
+.contactForm{
+    border:1px solid black;
+    box-shadow: 12px 17px 10px rgba(0, 0, 0, 0.2);
+    padding: 3%;
+    display: flex;
+    flex-direction: column;
+}
+.contactForm .topNameDiv{
+    display:flex;
+}
+
+.contactForm label{
+    font-size: 120%;
+    padding-bottom: 2%;
+}
+
+.inputDiv{
+    display: flex;
+    flex-direction: column;
+    padding: 2%;
+}
+.contactForm input{
+    height: 2rem;
+}
+
+.inputName1{
+    display: flex;
+    flex-direction: column;
+    padding: 2%;
+    width:50%;
+}
+.inputName2{
+    display: flex;
+    flex-direction: column;
+    padding: 2%;
+    width:50%;
+}
+.inputDiv textarea{
+    height: 15rem;
+}
+.contactForm button{
+    width:50%;
+    height: 3rem;
+    margin-left: 25%;
+}
+.contactForm .info div{
+  display: flex;
+  flex-direction: column;
+}

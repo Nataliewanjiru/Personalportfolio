@@ -1,0 +1,10 @@
+.mainBody{
+    display: flex;
+}
+.portfolioPage{
+    background-color: white;
+    padding-top: 4%;
+    padding-left: 12%;
+    padding-bottom: 6%;
+    width:80%
+}
