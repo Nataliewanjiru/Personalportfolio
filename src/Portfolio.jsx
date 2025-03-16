@@ -17,10 +17,10 @@ const Portfolio =()=>{
         <h1>Portfolio</h1>
         <div className="projectsList">
             <div className="projectSection"  onMouseEnter={handleMouseEnter} onMouseLeave={handleMouseLeave}>
-                <img className="projectImage" src="https://images.pexels.com/photos/96715/pexels-photo-96715.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"/>
+                <img className="projectImage" src="./Agrotech.png"/>
                 {isHovered && (
                   <div className="projectLink">
-                    <p>Link</p>
+                    <p><a href="https://magical-souffle-065d10.netlify.app/">Agro Tech</a></p>
                   </div>
                    )}
             </div>
