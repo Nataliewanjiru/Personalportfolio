@@ -17,7 +17,7 @@ const Portfolio =()=>{
         <h1>Portfolio</h1>
         <div className="projectsList">
             <div className="projectSection"  onMouseEnter={handleMouseEnter} onMouseLeave={handleMouseLeave}>
-                <img className="projectImage" src="./Agrotech.png"/>
+                <img className="projectImage"style={{height:'220px'}} src="./Agrotech.png"/>
                 {isHovered && (
                   <div className="projectLink">
                     <p><a href="https://magical-souffle-065d10.netlify.app/">Agro Tech</a></p>
