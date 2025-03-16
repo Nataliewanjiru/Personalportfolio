@@ -7,9 +7,8 @@ import Contact from './Contact';
 function Navbar({ scrollToHome,scrollToPortfolio,scrollToContact ,scrollToAbout, scrollToExp,scrollToService}){
     return(
         <>
-        <div className="sideSection">
-            <img src="#" alt="User image"/>
-            <h2>Natalie Wanjiru</h2>
+        <div className="sideSection" >
+            <h2 style={{marginTop:'90px'}}>Natalie Wanjiru</h2>
             <div className='mediaLink'>
                 <nav>
                     <ul className="social-icons">
